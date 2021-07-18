@@ -1,0 +1,25 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=Train+One&display=swap');
+// font-family: 'Comfortaa', cursive;
+// font-family: 'Noto Sans JP', sans-serif;
+// font-family: 'Train One', cursive;
+
+// ----------------------------------------
+// Novalumo X Project Website
+// Copyright 2021 Novalumo Japan G.K.
+// ----------------------------------------
+@import 'reboot';
+@import 'grid';
+@import 'animate';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#333, #18191a);
+  color: #eee;
+  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+  cursor: default;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

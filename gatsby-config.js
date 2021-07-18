@@ -1,17 +1,18 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "My Gatsby Site",
+    siteUrl: "https://www.novalumo.llc",
+    title: "X Project",
   },
   plugins: [
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
+    "gatsby-plugin-sass",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/img/icon.png",
       },
     },
     "gatsby-plugin-sharp",
@@ -19,10 +20,10 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: "img",
+        path: "./src/img/",
       },
-      __key: "images",
+      __key: "img",
     },
   ],
 };
